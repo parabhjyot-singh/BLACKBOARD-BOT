@@ -1,0 +1,136 @@
+[1604417011.444][INFO]: Starting ChromeDriver 86.0.4240.111 (b8c36128a06ebad76af51591bfec980224db5522-refs/branch-heads/4240@{#1290}) on port 44571
+[1604417011.444][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1604417012.419][INFO]: [357c78528d582a69101e154358aaa138] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-infobars", "start-maximized", "--disable-extensions", "--start-maximized" ],
+            "extensions": [  ],
+            "prefs": {
+               "profile.default_content_setting_values.geolocation": 0,
+               "profile.default_content_setting_values.media_stream_camera": 0,
+               "profile.default_content_setting_values.media_stream_mic": 0,
+               "profile.default_content_setting_values.notifications": 0
+            }
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--disable-infobars", "start-maximized", "--disable-extensions", "--start-maximized" ],
+         "extensions": [  ],
+         "prefs": {
+            "profile.default_content_setting_values.geolocation": 0,
+            "profile.default_content_setting_values.media_stream_camera": 0,
+            "profile.default_content_setting_values.media_stream_mic": 0,
+            "profile.default_content_setting_values.notifications": 0
+         }
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1604417012.420][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 0,
+         "media_stream_camera": 0,
+         "media_stream_mic": 0,
+         "notifications": 0
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1604417012.420][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1604417012.420][INFO]: Launching chrome: /snap/chromium/current/command-chromium.wrapper --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-extensions --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.eQciU2 data:,
+[1604417012.723][INFO]: resolved localhost to ["127.0.0.1"]
+[1604417012.764][INFO]: [357c78528d582a69101e154358aaa138] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.111",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.111 (b8c36128a06ebad76af51591bfec980224db5522-refs/branch-heads/4240@{#1290})",
+         "userDataDir": "/tmp/.org.chromium.Chromium.eQciU2"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:33275"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "357c78528d582a69101e154358aaa138"
+}
